@@ -1,0 +1,32 @@
+{
+  "name": "ng-ft-zoom-sdk",
+  "version": "2.2.0",
+  "description": "Angular version for zoOm cordova SDK",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
+  },
+  "keywords": [
+    "facetec",
+    "zoom",
+    "cordova-zoom",
+    "face-authentication",
+    "face",
+    "authentication",
+    "zoomlogin",
+    "zoom-login"
+  ],
+  "dependencies": {},
+  "author": "harish_kommuri",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "^6.1.1",
+    "@angular/compiler-cli": "^6.1.1",
+    "rollup": "^0.63.5",
+    "typescript": "^2.7.2",
+    "uglify-js": "^3.4.6"
+  }
+}
