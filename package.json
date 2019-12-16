@@ -3,12 +3,7 @@
   "version": "2.2.0",
   "description": "Angular version for zoOm cordova SDK",
   "main": "index.js",
-  "scripts": {
-    "transpile": "ngc",
-    "package": "rollup -c",
-    "minify": "uglifyjs dist/bundles/amazing.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/amazing.umd.min.js",
-    "build": "npm run transpile && npm run package && npm run minify"
-  },
+  "scripts": {},
   "keywords": [
     "facetec",
     "zoom",
@@ -23,10 +18,9 @@
   "author": "harish_kommuri",
   "license": "ISC",
   "devDependencies": {
-    "@angular/compiler": "^6.1.1",
-    "@angular/compiler-cli": "^6.1.1",
-    "rollup": "^0.63.5",
-    "typescript": "^2.7.2",
-    "uglify-js": "^3.4.6"
+    "@angular/cli": "^8.3.20",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/core": "^8.2.14"
   }
 }
