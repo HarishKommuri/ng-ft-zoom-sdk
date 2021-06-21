@@ -14,11 +14,13 @@
     "zoomlogin",
     "zoom-login"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
   "author": "harish_kommuri",
   "license": "ISC",
   "devDependencies": {
-    "@angular/cli": "^8.3.20",
+    "@angular/cli": "^9.1.15",
     "@angular/common": "^8.2.14",
     "@angular/compiler": "^8.2.14",
     "@angular/core": "^8.2.14"
