@@ -46,10 +46,10 @@ export class ZoomService {
      */
     private initialize = (): void => {
         this.callbackToPromise(ZoomAuthentication.initialize, [this.accessToken]).then(status => {
-            console.log(status);
             // Based on status this.isZoomInitialized is set
             this.isZoomInitialized = true;
-        }).catch(console.log);
+            return status;
+        }).catch(e => e);
     }
 
     /**

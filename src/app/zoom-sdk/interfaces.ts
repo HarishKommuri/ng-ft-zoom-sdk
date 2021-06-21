@@ -25,14 +25,6 @@ export interface AuthCallbackResponse {
     consecutiveLockouts: number;
 }
 
-/*
-export interface ZoomInitOptions {
-    code: number;
-    state: string;
-    initalized: boolean;
-}
-*/
-
 export interface ZoomVerifyResponse {
     status: string;
     successful: boolean;
